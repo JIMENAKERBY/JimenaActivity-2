@@ -1,0 +1,50 @@
+body{
+   font-size: 18px; 
+  color: #414141;
+    
+}
+title{
+    font-size: 6rem;
+    color: #414141;
+    font-family: 'Cinzel 900', serif;
+    
+}
+h1{
+    margin-bottom: 4px;
+    font-size: 6rem; 
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    font-family: 'Cinzel', serif;
+    
+}
+p{
+    font-size: 18px;
+    color: #7D7D7D;
+    line-height: 1.6;
+    
+
+}
+.lead{
+    color: #7D7D7D;
+    font-size: 21px;
+    
+}
+.subtitle{
+    color: #7D7D7D;
+    font-size: 36px;
+}
+ .link{
+    color: #CA5E10;
+}
+.subtitle{
+    font-family: PT serif 400;
+    text-align: center;
+}
+.container {
+    width: 90%;
+    max-width: 39rem;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    margin-top: 100px;
+  }
