@@ -1,50 +1,72 @@
-body{
-   font-size: 18px; 
-  color: #414141;
-    
+html,p{
+    color: white;
 }
-title{
-    font-size: 6rem;
-    color: #414141;
-    font-family: 'Cinzel 900', serif;
-    
-}
-h1{
-    margin-bottom: 4px;
-    font-size: 6rem; 
-    text-align: center;
-    text-transform: uppercase;
-    color:black;
-    font-family: 'Cinzel', serif;
-    
-}
-p{
-    font-size: 18px;
-    color: #7D7D7D;
-    line-height: 1.6;
-    
 
+.main-container{
+    position: absolute;
+    width: 30.62rem;
+    height: 35.73rem;
+    margin-left: 28rem;
+    background: linear-gradient(114.66deg, #1A0417 0.52%, rgba(37, 20, 238, 0.6) 99.35%);
+    border-radius: 0.3rem;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
-.lead{
-    color: #7D7D7D;
-    font-size: 21px;
-    
+.elements{
+    position: relative;
 }
-.subtitle{
-    color: #7D7D7D;
-    font-size: 36px;
+.header{
+    width: 27.62rem;
+    height: 3.73rem;
+    margin-left: 1.7rem;
+    margin-top: 1rem;
+    background: white;
+    border-radius: 0.3rem;
 }
- .link{
-    color: #CA5E10;
+.logo{
+    width: 9rem;
+    height: 3.7rem;
+    margin-left: 3.5rem;
 }
-.subtitle{
-    font-family: PT serif 400;
+h3{
+    float: right;
+    background-color: #aaaaaa;
+    margin-right: 5rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.inputs{
+    margin: 3rem 0rem 3rem 8rem;
+}
+input[type="text"],[type="password"]{
+    background-color: #aaaaaa;
+    border-radius: 0.3rem;
+}
+.boxes{
+    margin-left: 8.5rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
     text-align: center;
+    color: white;
+    font-size:medium;
+    font-weight: bolder;
+    background-color: #aaaaaa;
+    border-radius: 0.3rem;
+    margin-left: 14rem;
+    padding: 0.5rem;
+    border: none;
 }
-.container {
-    width: 90%;
-    max-width: 39rem;
-    margin: 0 auto;
-    font-family: 'PT Serif', serif;
-    margin-top: 100px;
-  }
+.lang{
+    margin: 2rem 0rem 3rem 13rem;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 12rem;
+}
